@@ -1,20 +1,12 @@
 body{
-    background-color:rgb(206, 255, 240);
+    background: url('pxfuel.jpg');
 }
 h1{
-color: red;
-border: 1px solid  blue;
-
-text-align: center;
-
-
-
-
+    color: yellow;
+    border: 1px solid  blue;
+    text-align: center;
 }
-img{
-    border-image-width: auto;
-    
-}
+
 section li{
     text-align: center;
     list-style: none;
