@@ -1,11 +1,17 @@
 body{
-    background: url('pxfuel.jpg');
+    text-align: center;
+    background: url(pxfuel.jpg);
+    justify-content: center;
+    
 }
 h1{
-    color: yellow;
-    border: 1px solid  blue;
-    text-align: center;
+    color: white;
+
 }
+h1:hover{
+    text-shadow: blue -3px 0 red 3px 0;
+}
+
 
 section li{
     text-align: center;

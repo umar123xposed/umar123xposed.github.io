@@ -1,0 +1,18 @@
+body{
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+#header-nav{
+    background-color: rgb(255, 212, 23);
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url(../images/logo.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
