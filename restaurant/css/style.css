@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(194, 40, 73);
     color: white;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
@@ -11,8 +11,71 @@ body{
     border: 0;
 }
 #logo-img{
+    
     background: url(../images/logo.png) no-repeat;
+    background-size: contain;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 15px 0px 0;
 }
+.navbar-brand{
+    
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    color: green;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p span{
+    color: #222;
+    font-size: .7em;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: maroon;
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: 5px
+}
+
+#phone a{
+    color: green;
+    padding-bottom: 0;
+    text-align: right;
+}
+#phone div{
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+}
+
