@@ -5,6 +5,7 @@ body{
     font-family: 'Oxygen', sans-serif;
 
 }
+/*header start*/
 #header-nav{
     background-color: rgb(255, 212, 23);
     border-radius: 0;
@@ -16,7 +17,7 @@ body{
     background-size: contain;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 0px 0;
+    margin: 10px 15px 10px 0;
 }
 .navbar-brand{
     
@@ -58,7 +59,7 @@ body{
     text-align: center;
 }
 #nav-list a:hover{
-    background-color: white;
+    background-color: rgb(102, 221, 118);
     box-shadow: 1px 1px 1px grey;
 }
 #nav-list a span{
@@ -79,3 +80,54 @@ body{
     padding-right: 15px;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid maroon;
+
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+/*header ends*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #logo-img{
+    
+        background: url(../images/logo2.png) no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+}
+@media (max-width: 767px){
+    .navbar-brand{
+        height: 80px;
+        padding-top: 10px;
+    }
+
+    .navbar-brand h1{
+        color: green;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        font-size: 5vw;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+        padding-top: 10px;
+        
+    
+    }
+    
+    .navbar-brand p span{
+        color: #222;
+        font-size: .6em;
+        margin-top: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+    
+    }
+
+}
