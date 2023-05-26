@@ -1,5 +1,5 @@
 body{
-    background-color: #0B0C10;
+    background: url(../images/Black_Wood_Background.png) no-repeat;
     color: white;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
@@ -152,10 +152,12 @@ body{
 #reviews{
     font-style: italic;
 }
-reviews p:nth-child(2){
+#reviews p:nth-child(2){
     margin-top:15px;
 
 }
+/*footer ends*/
+
 @media (min-width:1200px){
     .container .jumbotron{
         background: url(../images/jumbotron_lg.jpg) no-repeat;
@@ -241,6 +243,13 @@ reviews p:nth-child(2){
     #menu-tile, #special-tile, #map-tile{
         width: 360px;
         margin: 0 auto 15px;
+    }
+
+    .panel-footer section{
+        text-align: center;
+    }
+    section hr{
+        width: 50%;
     }
 
 }
