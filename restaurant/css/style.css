@@ -1,5 +1,5 @@
 body{
-    background: url(../images/Black_Wood_Background.png) no-repeat;
+    background: url(../images/body.jpg) no-repeat;
     color: white;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
@@ -7,9 +7,9 @@ body{
 }
 /*header start*/
 #header-nav{
-    background-color: #66fcf1;
+    background-color: #45a29e;
     border-radius: 0;
-    border: 0;
+    border-bottom: 2px solid #1f2833;
 }
 #logo-img{
     
@@ -25,7 +25,7 @@ body{
 }
 
 .navbar-brand h1{
-    color: #c5c6c7;
+    color: white;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     font-size: 1.5em;
@@ -57,14 +57,17 @@ body{
 #nav-list a{
     color: #1f2833;
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 #nav-list a:hover{
-    background-color: #45a29e;
-    color:#c5c6c7;
+    background-color: #c5c6c7;
+    color:#0b0c10;
     box-shadow: 2px 2px 2px grey;
 }
 #nav-list a span{
     font-size: 1.8em;
+    
 }
 #phone {
     margin-top: 5px
@@ -76,13 +79,13 @@ body{
     text-align: right;
 }
 #phone div{
-    color: black;
+    color: white;
     text-align: right;
     padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-    border: 1px solid #45a29e;
+    border: 1px solid #0b0c10;
 
 }
 .navbar-header button.navbar-toggle{
@@ -203,7 +206,7 @@ body{
     }
 
     .navbar-brand h1{
-        color: #c5c6c7;
+        color: white;
         font-weight: bold;
         text-shadow: 1px 1px 1px #222;
         font-size: 5vw;
