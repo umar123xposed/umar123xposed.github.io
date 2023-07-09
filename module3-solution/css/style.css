@@ -1,0 +1,77 @@
+body{    
+    font-size: 16px;
+    
+    
+}
+
+#header-nav{
+    background-color: grey;
+    border-radius: 0;
+    border-bottom: 2px solid #1f2833;
+}
+.navbar-brand{
+    padding-top: 10px;
+}
+.navbar-brand h1{
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: .75;
+
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #1f2833;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#nav-list a:hover{
+    background-color: #c5c6c7;
+    color:#0b0c10;
+    box-shadow: 2px 2px 2px grey;
+}
+#nav-list a span{
+    font-size: 1.8em;
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #0b0c10;
+
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px; 
+}
+#nav-list li{
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.main{
+    background-color: grey;
+    color: black;
+    
+    
+}
+.main h3{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+@media (max-width:767px){
+    .main{
+    margin-left: 45px;
+    margin-right: 45px;
+    text-align: center;
+    width: 80%;
+}
+}
